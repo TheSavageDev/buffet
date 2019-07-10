@@ -1,0 +1,70 @@
+alias update="source ~/.zshrc"
+
+# *** Commands *** #
+alias l='ls -lFGh'
+alias la='ls -al'
+alias ld='ls -l | grep "^d"' # Lists all directories
+alias ldot='ls -ld .*'
+alias grep='grep --color'
+alias b='brightness -m ' # Number between 0 and 1 for % brigthness
+alias lps='lsof -wni ' # Takes port or protocol or both protocol:port
+alias c='clear'
+alias path='echo -e ${PATH//:/\\n}' # Prints the PATH with each directory separated by newline
+
+# *** File System *** #
+alias o='open -a '
+
+# *** Apps *** #
+alias fire="o 'Firefox'"
+alias chrome="o 'Google Chrome'"
+alias Docker="o 'Docker'"
+alias Teams="o 'Microsoft Teams'"
+alias Outlook="o 'Microsoft Outlook'"
+alias Word="o 'Microsoft Word'"
+alias Skype="o 'Skype for Business'"
+
+# *** Git *** #
+alias g='git'
+alias ga='git add .'
+alias gs='g status'
+alias gac='g add . && g commit -m '
+alias push='g push'
+alias garc='git add . && git rebase --continue'
+alias skip='git rebase --skip'
+alias grc='git rebase --continue'
+
+# *** NPM *** #
+alias nrs='npm run start'
+alias i='npm i'
+alias build='npm run build'
+
+# *** Docker *** #
+alias di='docker images'
+alias dc='docker ps'
+alias dri='docker rmi '
+alias dcs='docker container stop '
+alias dcr='docker container rm '
+
+# *** Work Specific *** #
+alias cleanI='npm run clean:install'
+alias wdio='npm run test:wdio'
+alias lint='npm run test:lint'
+alias jest='npm run test:jest'
+alias updateJest='npm run test:jest -- -u'
+alias watchJest='npm run test:jest -- --watch'
+
+# *** Websites *** #
+alias Cru='fire https://crucible04.cerner.com/viewer/cru?filter=inbox'
+alias Cerner='fire https://my.cerner.com/home/'
+alias Jira='fire https://jira2.cerner.com/secure/Dashboard.jspa'
+
+# *** Functions *** #
+# This one is my favorite
+gitIt() {
+  git checkout REVCYCLECM-"$1"
+}
+
+# This is a close second
+weather() {
+  curl wttr.in/"$1";
+}

@@ -1,2 +1,3 @@
-# html-mac-setup
-Developer Mac set up
+# Buffet
+
+Developer Mac Buffet

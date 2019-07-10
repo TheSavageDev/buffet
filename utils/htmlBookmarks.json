@@ -1,0 +1,865 @@
+{
+   "checksum": "dfa7e1f957235c76b6a80c85edeff582",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13203695670000000",
+               "id": "331",
+               "name": "Health Benefits Management Dev",
+               "type": "url",
+               "url": "https://healthbenefitsmanagement.devcernerpowerchart.com/?tenant_key=2c400054-42d8-4e74-87b7-80b5bd5fde9f#/hbm"
+            }, {
+               "date_added": "13195152654000000",
+               "id": "347",
+               "name": "Yammer : All Company : New Conversations",
+               "type": "url",
+               "url": "https://www.yammer.com/cerner.net/#/threads/company?type=general"
+            }, {
+               "children": [ {
+                  "date_added": "13196538810000000",
+                  "id": "350",
+                  "name": "terra-toolkit/wdio.conf.js at master · cerner/terra-toolkit",
+                  "type": "url",
+                  "url": "https://github.com/cerner/terra-toolkit/blob/master/config/wdio/wdio.conf.js"
+               }, {
+                  "date_added": "13196538894000000",
+                  "id": "351",
+                  "name": "dequelabs/axe-core: Accessibility engine for automated Web UI testing",
+                  "type": "url",
+                  "url": "https://github.com/dequelabs/axe-core"
+               }, {
+                  "date_added": "13196538975000000",
+                  "id": "352",
+                  "name": "terra-toolkit/AxeService.md at master · cerner/terra-toolkit",
+                  "type": "url",
+                  "url": "https://github.com/cerner/terra-toolkit/blob/master/docs/AxeService.md"
+               } ],
+               "date_added": "13206483408436692",
+               "date_modified": "0",
+               "id": "349",
+               "name": "WDIO",
+               "type": "folder"
+            }, {
+               "date_added": "13202231744000000",
+               "id": "356",
+               "name": "Cerner Classifieds - Kansas City - All Available Items",
+               "type": "url",
+               "url": "https://cernerprod.sharepoint.com/sites/CernerClassifieds/Lists/Kansas%20City/All%20Available%20Items.aspx?web=1"
+            }, {
+               "date_added": "13204128519000000",
+               "id": "362",
+               "name": "Category:OWASP Top Ten 2017 Project - OWASP",
+               "type": "url",
+               "url": "https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project"
+            }, {
+               "date_added": "13206481266000000",
+               "id": "366",
+               "name": "SDS Self Service",
+               "type": "url",
+               "url": "https://selfservicetools51.cerner.com/"
+            }, {
+               "children": [ {
+                  "date_added": "13189024752000000",
+                  "id": "337",
+                  "name": "Terra Dev Site",
+                  "type": "url",
+                  "url": "https://engineering.cerner.com/terra-dev-site/#/getting-started/terra-dev-site/configuration/site-config"
+               }, {
+                  "date_added": "13191523446000000",
+                  "id": "341",
+                  "name": "Getting Started - Orion - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/pages/viewpage.action?spaceKey=Orion&title=Getting+Started"
+               }, {
+                  "date_added": "13199301597000000",
+                  "id": "353",
+                  "name": "Develop - Node Module - Orion - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/Orion/Develop+-+Node+Module"
+               }, {
+                  "date_added": "13199301603000000",
+                  "id": "354",
+                  "name": "Orion Testing - Engineers - ion - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/Ion/Orion+Testing+-+Engineers#OrionTesting-Engineers-Engineers-UnitTesting"
+               } ],
+               "date_added": "13206483595143321",
+               "date_modified": "13206483623848779",
+               "id": "474",
+               "name": "Terra/Orion",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13202859540000000",
+                  "id": "454",
+                  "name": "myCerner",
+                  "type": "url",
+                  "url": "https://my.cerner.com/home/"
+               } ],
+               "date_added": "13206483629168007",
+               "date_modified": "13206483736050976",
+               "id": "475",
+               "name": "Admin",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13204127743000000",
+                  "id": "359",
+                  "name": "Project Codes - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/RWCM/Project+Codes"
+               }, {
+                  "date_added": "13204128499000000",
+                  "id": "360",
+                  "name": "Home - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/RWCM/Home"
+               }, {
+                  "date_added": "13204128506000000",
+                  "id": "361",
+                  "name": "RWCM Developer Training - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/RWCM/RWCM+Developer+Training"
+               }, {
+                  "date_added": "13204128525000000",
+                  "id": "363",
+                  "name": "Technical HowTo's - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/RWCM/Technical+HowTo%27s"
+               }, {
+                  "date_added": "13204128530000000",
+                  "id": "364",
+                  "name": "Best Coding Practices - UI - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/RWCM/Best+Coding+Practices+-+UI"
+               }, {
+                  "date_added": "13204997246000000",
+                  "id": "365",
+                  "name": "Repositories (9) [RWCM Norbert] [Jenkins]",
+                  "type": "url",
+                  "url": "https://jenkins.cerner.com/ion/view/all/job/RWCM%20Norbert/"
+               }, {
+                  "date_added": "13203549895000000",
+                  "id": "358",
+                  "name": "Human Resources Time Codes - United States - Human Resources - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/display/HR/Human+Resources+Time+Codes+-+United+States"
+               }, {
+                  "date_added": "13203529104000000",
+                  "id": "357",
+                  "name": "myTime",
+                  "type": "url",
+                  "url": "https://mytime.cerner.com/"
+               }, {
+                  "date_added": "13195837860000000",
+                  "id": "348",
+                  "name": "Home - RevWorks Contract Management - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/pages/viewpage.action?spaceKey=RWCM&title=Home"
+               }, {
+                  "date_added": "13193849835000000",
+                  "id": "345",
+                  "name": "Cerner Design Standards - User Experience - Cerner Wiki",
+                  "type": "url",
+                  "url": "https://wiki.cerner.com/pages/viewpage.action?spaceKey=UserExperience&title=Cerner+Design+Standards"
+               }, {
+                  "date_added": "13191607623000000",
+                  "id": "343",
+                  "name": "RWCM Norbert",
+                  "type": "url",
+                  "url": "https://github.cerner.com/rwcm-norbert"
+               }, {
+                  "date_added": "13175806691000000",
+                  "id": "335",
+                  "name": "RevWorks Contract Management",
+                  "type": "url",
+                  "url": "https://github.cerner.com/RWCM-norbert"
+               }, {
+                  "date_added": "13177108820000000",
+                  "id": "336",
+                  "name": "GitHub - RWCM/Smee: A pull-request checker robot",
+                  "type": "url",
+                  "url": "https://github.cerner.com/RWCM/Smee"
+               }, {
+                  "date_added": "13175805983000000",
+                  "id": "334",
+                  "name": "Modeling and Analytics - RevWorks Contract Management - uCern Wiki",
+                  "type": "url",
+                  "url": "https://wiki.ucern.com/display/RWCM/Modeling+and+Analytics"
+               }, {
+                  "date_added": "13175800673000000",
+                  "id": "333",
+                  "name": "Welcome to JIRA - JIRA",
+                  "type": "url",
+                  "url": "https://jira.cerner.com/secure/WelcomeToJIRA.jspa"
+               } ],
+               "date_added": "13206483638824267",
+               "date_modified": "13206483715603818",
+               "id": "476",
+               "name": "RWCM",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13199906319000000",
+                  "id": "355",
+                  "name": "Grid Console",
+                  "type": "url",
+                  "url": "http://selenium.devcerner.com/grid/console#"
+               }, {
+                  "date_added": "13194111926000000",
+                  "id": "346",
+                  "name": "Copy Edit Delete Scenarios",
+                  "type": "url",
+                  "url": "https://cerner.invisionapp.com/share/FWOY91X6U5V#/screens"
+               }, {
+                  "date_added": "13189879740000000",
+                  "id": "338",
+                  "name": "Crucible 04",
+                  "type": "url",
+                  "url": "https://crucible04.cerner.com/viewer/"
+               }, {
+                  "date_added": "13198254453000000",
+                  "id": "332",
+                  "name": "Jenkins HBM",
+                  "type": "url",
+                  "url": "https://jenkins.cerner.com/ion/job/RWCM%20Norbert/job/health-benefits-management-js/job/master/"
+               }, {
+                  "date_added": "13204740223000000",
+                  "id": "456",
+                  "name": "BME",
+                  "type": "url",
+                  "url": "https://github.cerner.com/rwcm-norbert/benefits_management_engine"
+               }, {
+                  "date_added": "13204740241000000",
+                  "id": "457",
+                  "name": "BMJS",
+                  "type": "url",
+                  "url": "https://github.cerner.com/rwcm-norbert/benefits-management-js"
+               } ],
+               "date_added": "13206483672494472",
+               "date_modified": "13206483740586732",
+               "id": "477",
+               "name": "HBM",
+               "type": "folder"
+            } ],
+            "date_added": "13206483408435488",
+            "date_modified": "13206483711802989",
+            "id": "330",
+            "name": "Cerner",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13178899014000000",
+                  "id": "369",
+                  "name": "Reactiflux",
+                  "type": "url",
+                  "url": "https://www.reactiflux.com/"
+               }, {
+                  "date_added": "13178899019000000",
+                  "id": "370",
+                  "name": "GitHub - markerikson/react-redux-links: Curated tutorial and resource links I've collected on React, Redux, ES6, and more",
+                  "type": "url",
+                  "url": "https://github.com/markerikson/react-redux-links"
+               }, {
+                  "date_added": "13178899022000000",
+                  "id": "371",
+                  "name": "GitHub - enaqx/awesome-react: A collection of awesome things regarding React ecosystem.",
+                  "type": "url",
+                  "url": "https://github.com/enaqx/awesome-react"
+               }, {
+                  "date_added": "13178899025000000",
+                  "id": "372",
+                  "name": "GitHub - brillout/awesome-react-components: Catalog of React Components & Libraries",
+                  "type": "url",
+                  "url": "https://github.com/brillout/awesome-react-components"
+               }, {
+                  "date_added": "13178899028000000",
+                  "id": "373",
+                  "name": "GitHub - tiaanduplessis/awesome-react-talks: A curated list of talks about React or topics related to React",
+                  "type": "url",
+                  "url": "https://github.com/tiaanduplessis/awesome-react-talks"
+               }, {
+                  "date_added": "13179029092000000",
+                  "id": "374",
+                  "name": "React Internals, Part One: basic rendering - Matt Greer",
+                  "type": "url",
+                  "url": "http://www.mattgreer.org/articles/react-internals-part-one-basic-rendering/"
+               }, {
+                  "date_added": "13191524731000000",
+                  "id": "375",
+                  "name": "✌️ react-spring",
+                  "type": "url",
+                  "url": "http://react-spring.surge.sh/"
+               }, {
+                  "date_added": "13191524738000000",
+                  "id": "376",
+                  "name": "useHooks - Easy to understand React Hook recipes",
+                  "type": "url",
+                  "url": "https://usehooks.com/"
+               }, {
+                  "date_added": "13192034446000000",
+                  "id": "377",
+                  "name": "Thank you!",
+                  "type": "url",
+                  "url": "https://flaviocopes.com/page/ebooks-links/"
+               }, {
+                  "date_added": "13174431277000000",
+                  "id": "378",
+                  "name": "Building a chat app with React.js and Chatkit | Scrimba.com",
+                  "type": "url",
+                  "url": "https://scrimba.com/g/greactchatkit?utm_source=React+course&utm_campaign=6dc8039e9c-EMAIL_CAMPAIGN_2018_01_25_COPY_01&utm_medium=email&utm_term=0_b97603b075-6dc8039e9c-92559763"
+               }, {
+                  "date_added": "13174431478000000",
+                  "id": "379",
+                  "name": "Component architecture",
+                  "type": "url",
+                  "url": "https://scrimba.com/p/pbNpTv/cm2a6f9"
+               }, {
+                  "date_added": "13201206273000000",
+                  "id": "380",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#react"
+               }, {
+                  "date_added": "13198871311000000",
+                  "id": "381",
+                  "name": "Vibe – React Dashboard Kit",
+                  "type": "url",
+                  "url": "https://vibe.nicedash.com/elements/buttons"
+               }, {
+                  "date_added": "13198871476000000",
+                  "id": "382",
+                  "name": "NiceDash/Vibe: A beautiful react.js dashboard build with Bootstrap 4 👌",
+                  "type": "url",
+                  "url": "https://github.com/NiceDash/Vibe"
+               } ],
+               "date_added": "13206483408438020",
+               "date_modified": "0",
+               "id": "368",
+               "name": "React",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13191012166000000",
+                  "id": "384",
+                  "name": "When Context Replaces Redux",
+                  "type": "url",
+                  "url": "https://frontarm.com/articles/when-context-replaces-redux/"
+               }, {
+                  "date_added": "13191012198000000",
+                  "id": "385",
+                  "name": "Choosing between Redux and React’s Context API – Noteworthy - The Journal Blog",
+                  "type": "url",
+                  "url": "https://blog.usejournal.com/choosing-between-redux-and-reacts-context-api-272ca20224b2"
+               }, {
+                  "date_added": "13191012206000000",
+                  "id": "386",
+                  "name": "Replacing Redux with the new React context API – freeCodeCamp.org",
+                  "type": "url",
+                  "url": "https://medium.freecodecamp.org/replacing-redux-with-the-new-react-context-api-8f5d01a00e8c"
+               }, {
+                  "date_added": "13191012211000000",
+                  "id": "387",
+                  "name": "javascript - React Context vs React Redux, when should I use each one? - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/49568073/react-context-vs-react-redux-when-should-i-use-each-one"
+               }, {
+                  "date_added": "13191012217000000",
+                  "id": "388",
+                  "name": "React Context API - A Replacement for Redux? – Bits and Pieces",
+                  "type": "url",
+                  "url": "https://blog.bitsrc.io/react-context-api-a-replacement-for-redux-6e20790492b3"
+               }, {
+                  "date_added": "13191012221000000",
+                  "id": "389",
+                  "name": "How Redux Works: A Counter-Example",
+                  "type": "url",
+                  "url": "https://daveceddia.com/how-does-redux-work/"
+               }, {
+                  "date_added": "13191012228000000",
+                  "id": "390",
+                  "name": "Redux vs. The React Context API",
+                  "type": "url",
+                  "url": "https://daveceddia.com/context-api-vs-redux/"
+               }, {
+                  "date_added": "13201206282000000",
+                  "id": "391",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#redux"
+               } ],
+               "date_added": "13206483408439378",
+               "date_modified": "0",
+               "id": "383",
+               "name": "Redux",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13185305710000000",
+                  "id": "393",
+                  "name": "Devhints — TL;DR for developer documentation",
+                  "type": "url",
+                  "url": "https://devhints.io/"
+               }, {
+                  "date_added": "13200620125000000",
+                  "id": "394",
+                  "name": "DevDocs API Documentation",
+                  "type": "url",
+                  "url": "https://devdocs.io/"
+               } ],
+               "date_added": "13206483408439934",
+               "date_modified": "0",
+               "id": "392",
+               "name": "Docs",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13189369085000000",
+                  "id": "396",
+                  "name": "Upload Files on Web  |  Firebase",
+                  "type": "url",
+                  "url": "https://firebase.google.com/docs/storage/web/upload-files"
+               }, {
+                  "date_added": "13188525041000000",
+                  "id": "397",
+                  "name": "Integrating Firebase Authentication with the new React Context API",
+                  "type": "url",
+                  "url": "https://hackernoon.com/integrating-firebase-authentication-with-react-router-in-react-16-3-92f53b67c0b0"
+               }, {
+                  "date_added": "13186626386000000",
+                  "id": "398",
+                  "name": "Firebase React Authentication Tutorial",
+                  "type": "url",
+                  "url": "https://maksimivanov.com/posts/firebase-react-tutorial/"
+               }, {
+                  "date_added": "13187746605000000",
+                  "id": "399",
+                  "name": "Intro to Firebase and React | CSS-Tricks",
+                  "type": "url",
+                  "url": "https://css-tricks.com/intro-firebase-react/"
+               }, {
+                  "date_added": "13177429960000000",
+                  "id": "400",
+                  "name": "Firebase API Reference  |  Firebase",
+                  "type": "url",
+                  "url": "https://firebase.google.com/docs/reference/"
+               } ],
+               "date_added": "13206483408440063",
+               "date_modified": "0",
+               "id": "395",
+               "name": "Firebase",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13174429393000000",
+                  "id": "402",
+                  "name": "Workforce Training Tool",
+                  "type": "url",
+                  "url": "https://workplus.splunk.com/veterans/page#/courses"
+               } ],
+               "date_added": "13206483408440386",
+               "date_modified": "0",
+               "id": "401",
+               "name": "Splunk",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13186418495000000",
+                  "id": "404",
+                  "name": "Openik",
+                  "type": "url",
+                  "url": "https://www.openik.com/"
+               }, {
+                  "date_added": "13189552530000000",
+                  "id": "405",
+                  "name": "Courses | Wes Bos",
+                  "type": "url",
+                  "url": "https://wesbos.com/courses/"
+               }, {
+                  "date_added": "13189552594000000",
+                  "id": "406",
+                  "name": "Courses Dashboard | Wes Bos",
+                  "type": "url",
+                  "url": "https://courses.wesbos.com/account"
+               }, {
+                  "date_added": "13175985786000000",
+                  "id": "407",
+                  "name": "udemy",
+                  "type": "url",
+                  "url": "https://www.udemy.com/"
+               }, {
+                  "date_added": "13196531596000000",
+                  "id": "408",
+                  "name": "Dashboard | The Odin Project",
+                  "type": "url",
+                  "url": "https://www.theodinproject.com/dashboard"
+               } ],
+               "date_added": "13206483408440463",
+               "date_modified": "0",
+               "id": "403",
+               "name": "Learning and Lists",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206210000000",
+                  "id": "410",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#go"
+               } ],
+               "date_added": "13206483408440739",
+               "date_modified": "0",
+               "id": "409",
+               "name": "Go",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206236000000",
+                  "id": "412",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#graphql"
+               }, {
+                  "date_added": "13195757865000000",
+                  "id": "413",
+                  "name": "How to GraphQL - The Fullstack Tutorial for GraphQL",
+                  "type": "url",
+                  "url": "https://www.howtographql.com/"
+               } ],
+               "date_added": "13206483408440837",
+               "date_modified": "0",
+               "id": "411",
+               "name": "GraphQL",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13185034552000000",
+                  "id": "415",
+                  "name": "The Google Cloud Developer Cheat Sheet – Google Cloud Platform - Community – Medium",
+                  "type": "url",
+                  "url": "https://medium.com/google-cloud/the-google-cloud-developer-cheat-sheet-429775bd6d11"
+               }, {
+                  "children": [ {
+                     "date_added": "13190914520008785",
+                     "id": "186",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914520009318"
+                     },
+                     "name": "Intro to Progressive Web Apps | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/intro-to-progressive-web-apps--ud811"
+                  }, {
+                     "date_added": "13190914524308334",
+                     "id": "181",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914524308587"
+                     },
+                     "name": "Web Accessibility | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/web-accessibility--ud891"
+                  }, {
+                     "date_added": "13190914530742180",
+                     "id": "187",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914530742534"
+                     },
+                     "name": "Browser Rendering Optimization | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/browser-rendering-optimization--ud860"
+                  }, {
+                     "date_added": "13190914535406160",
+                     "id": "182",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914535406412"
+                     },
+                     "name": "Responsive Web Design Fundamentals | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
+                  }, {
+                     "date_added": "13190914544570941",
+                     "id": "185",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914544571379"
+                     },
+                     "name": "Developing Progressive Web Applications  |  Google Developers Training  |  Google Developers",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://developers.google.com/training/courses/progressive-web-apps"
+                  }, {
+                     "date_added": "13190914555149209",
+                     "id": "183",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914555149453"
+                     },
+                     "name": "Offline Web Applications | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/offline-web-applications--ud899"
+                  }, {
+                     "date_added": "13190914560056450",
+                     "id": "184",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914560056733"
+                     },
+                     "name": "JavaScript Promises | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/javascript-promises--ud898"
+                  }, {
+                     "date_added": "13190914568298843",
+                     "id": "188",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914568299147"
+                     },
+                     "name": "Responsive Images | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/responsive-images--ud882"
+                  }, {
+                     "date_added": "13190914572509662",
+                     "id": "189",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914572509908"
+                     },
+                     "name": "Building High Conversion Web Forms | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/building-high-conversion-web-forms--ud890"
+                  }, {
+                     "date_added": "13190914575299473",
+                     "id": "179",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914575299811"
+                     },
+                     "name": "Client-Server Communication | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/client-server-communication--ud897"
+                  }, {
+                     "date_added": "13190914607815648",
+                     "id": "180",
+                     "meta_info": {
+                        "last_visited_desktop": "13190914607815929"
+                     },
+                     "name": "Mobile Web Specialist | Udacity",
+                     "sync_transaction_version": "3",
+                     "type": "url",
+                     "url": "https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024"
+                  } ],
+                  "date_added": "13190914516397423",
+                  "date_modified": "13192045861988172",
+                  "id": "178",
+                  "name": "Google Web Training",
+                  "sync_transaction_version": "3",
+                  "type": "folder"
+               } ],
+               "date_added": "13206483408440989",
+               "date_modified": "13206483532169599",
+               "id": "414",
+               "name": "Google",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206248000000",
+                  "id": "417",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#graphical-user-interfaces"
+               } ],
+               "date_added": "13206483408441079",
+               "date_modified": "0",
+               "id": "416",
+               "name": "GUI",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206256000000",
+                  "id": "419",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#html--css"
+               }, {
+                  "date_added": "13199941871000000",
+                  "id": "420",
+                  "name": "CSS Cursors!",
+                  "type": "url",
+                  "url": "http://csscursor.info/"
+               }, {
+                  "date_added": "13198871279000000",
+                  "id": "421",
+                  "name": "CSSeffectsSnippets.",
+                  "type": "url",
+                  "url": "https://emilkowalski.github.io/css-effects-snippets/"
+               }, {
+                  "date_added": "13196186125000000",
+                  "id": "422",
+                  "name": "Do CSS Custom Properties Beat Sass Loops? | CSS-Tricks",
+                  "type": "url",
+                  "url": "https://css-tricks.com/do-css-custom-properties-beat-sass-loops/"
+               }, {
+                  "date_added": "13191956863000000",
+                  "id": "423",
+                  "name": "PX to EM conversion made simple – All Markup News.",
+                  "type": "url",
+                  "url": "https://all-markup-news.com/px-to-em/"
+               }, {
+                  "date_added": "13180109279000000",
+                  "id": "424",
+                  "name": "Vitalsource: Basics of Web Design",
+                  "type": "url",
+                  "url": "https://bookshelf.vitalsource.com/#/books/9780134444413/cfi/6/16!/4/2/2/2/4@0:0"
+               }, {
+                  "date_added": "13178383032000000",
+                  "id": "425",
+                  "name": "CSS-Tricks",
+                  "type": "url",
+                  "url": "https://css-tricks.com/"
+               }, {
+                  "date_added": "13169181623000000",
+                  "id": "426",
+                  "name": "Stu Nicholls | CSSplay | Experiments with cascading style sheets | Doing it with Style",
+                  "type": "url",
+                  "url": "http://www.cssplay.co.uk/"
+               }, {
+                  "date_added": "13189533036000000",
+                  "id": "427",
+                  "name": "HTML Reference",
+                  "type": "url",
+                  "url": "https://www.w3schools.com/tags/"
+               }, {
+                  "date_added": "13173211864000000",
+                  "id": "429",
+                  "name": "Noun Project - Icons for Everything",
+                  "type": "url",
+                  "url": "https://thenounproject.com/"
+               } ],
+               "date_added": "13206483408441177",
+               "date_modified": "0",
+               "id": "418",
+               "name": "HTML/CSS",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206264000000",
+                  "id": "431",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#http"
+               } ],
+               "date_added": "13206483408441920",
+               "date_modified": "0",
+               "id": "430",
+               "name": "HTTP",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206289000000",
+                  "id": "433",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#nodejs"
+               } ],
+               "date_added": "13206483408442024",
+               "date_modified": "0",
+               "id": "432",
+               "name": "Node.js",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206296000000",
+                  "id": "435",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#meteor"
+               } ],
+               "date_added": "13206483408442124",
+               "date_modified": "0",
+               "id": "434",
+               "name": "Metor",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206301000000",
+                  "id": "437",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript"
+               }, {
+                  "date_added": "13182447931000000",
+                  "id": "438",
+                  "name": "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
+                  "type": "url",
+                  "url": "https://regex101.com/"
+               } ],
+               "date_added": "13206483408442221",
+               "date_modified": "0",
+               "id": "436",
+               "name": "JavaScript",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13201206309000000",
+                  "id": "440",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#jenkins"
+               } ],
+               "date_added": "13206483408442416",
+               "date_modified": "0",
+               "id": "439",
+               "name": "Jenkins",
+               "type": "folder"
+            }, {
+               "date_added": "13200620822000000",
+               "id": "442",
+               "name": "DevDocs",
+               "type": "url",
+               "url": "https://devdocs.io/help?q=%s"
+            }, {
+               "date_added": "13205429970000000",
+               "id": "443",
+               "name": "Development Guides | GitHub Developer Guide",
+               "type": "url",
+               "url": "https://developer.github.com/v3/guides/"
+            }],
+            "date_added": "13206483408437996",
+            "date_modified": "13206483748551566",
+            "id": "367",
+            "name": "Dev Stuff",
+            "type": "folder"
+         } ],
+         "date_added": "13190925376523358",
+         "date_modified": "13206483539165160",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13190925376523381",
+         "date_modified": "13106841948620684",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "79",
+      "synced": {
+         "children": [  ],
+         "date_added": "13190925376523383",
+         "date_modified": "13183600722493749",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
