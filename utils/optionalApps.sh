@@ -96,6 +96,6 @@ function multiselect {
     eval $retval='("${selected[@]}")'
 }
 
-options="Postman;HyperTerm;iTerm;BraveBrowser;ChromeCanary;FirefoxDeveloperEdition;VLC;"
+options="Postman;HyperTerm;iTerm;BraveBrowser;ChromeCanary;FirefoxDeveloperEdition;VLC;FireFox;"
 
 multiselect result $options "true;;true"
