@@ -13,3 +13,12 @@ You have to have silverware to eat. This script is given to you when you run pla
 ### Options
 
 We have plenty of tasty and healthy script options to satisfy your hunger for development. The following are the scripts available to you to choose from:
+
+gpg suite
+hyperdock
+gitkraken
+affinity
+slack
+google play desktop player
+gpg keychain
+iterm2

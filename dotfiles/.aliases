@@ -1,4 +1,11 @@
+#
+# A lot of these are personal
+# Take what works for you. Change them
+# TheSavage is one you probably don't need!
+#
+
 alias update="source ~/.zshrc"
+alias c='code-insiders'
 
 # *** Commands *** #
 alias l='ls -lFGh'
@@ -7,21 +14,28 @@ alias ld='ls -l | grep "^d"' # Lists all directories
 alias ldot='ls -ld .*'
 alias grep='grep --color'
 alias b='brightness -m ' # Number between 0 and 1 for % brigthness
+alias work='workCode && workComms && workLocal && workTerm'
+alias stfu="osascript -e 'set volume output muted true'" # mutes volume
 alias lps='lsof -wni ' # Takes port or protocol or both protocol:port
-alias c='clear'
 alias path='echo -e ${PATH//:/\\n}' # Prints the PATH with each directory separated by newline
 
 # *** File System *** #
 alias o='open -a '
+alias github='cd ~/GitHub'
 
 # *** Apps *** #
-alias fire="o 'Firefox'"
+alias fire="o 'Firefox Developer Edition'"
 alias chrome="o 'Google Chrome'"
+alias chromec="o 'Google Chrome Canary'"
+alias firelite="o 'Firefox'"
 alias Docker="o 'Docker'"
+alias Brave="o 'Brave Browser'"
 alias Teams="o 'Microsoft Teams'"
 alias Outlook="o 'Microsoft Outlook'"
 alias Word="o 'Microsoft Word'"
-alias Skype="o 'Skype for Business'"
+alias Mail="o 'Thunderbird'"
+alias 8000="chrome http://localhost:8000"
+alias graphql="chrome http://localhost:8000/___graphql"
 
 # *** Git *** #
 alias g='git'
@@ -37,6 +51,9 @@ alias grc='git rebase --continue'
 alias nrs='npm run start'
 alias i='npm i'
 alias build='npm run build'
+alias nu='npm uninstall '
+alias niD='npm i -D '
+alias niP='npm i -P '
 
 # *** Docker *** #
 alias di='docker images'
@@ -47,24 +64,111 @@ alias dcr='docker container rm '
 
 # *** Work Specific *** #
 alias cleanI='npm run clean:install'
-alias wdio='npm run test:wdio'
-alias lint='npm run test:lint'
-alias jest='npm run test:jest'
 alias updateJest='npm run test:jest -- -u'
 alias watchJest='npm run test:jest -- --watch'
 
+alias MAEng='cd ~/GitHub/work/hbm/health_benefits_management_engine'
+alias MAJs='cd ~/GitHub/work/hbm/health-benefits-management-js'
+
+alias MBEng='cd ~/GitHub/work/hbm/health_benefits_store_engine'
+alias MBJs='cd ~/GitHub/work/hbm/health-benefits-store-js'
+
+alias BMEng='cd ~/GitHub/work/hbm/benefits_management_engine'
+alias BMJs='cd ~/GitHub/work/hbm/benefits-management-js'
+
+alias QCEng='cd ~/GitHub/work/hbm/qualification_codes_engine'
+alias QCJs='cd ~/GitHub/work/hbm/qualification-codes-js'
+
+alias Ser='cd ~/GitHub/work/hbm/health_benefits_management_server'
+
+alias MasEng='MAEng && code .'
+alias MasJs='MAJs && code .'
+
+alias AccEng='MBEng && code .'
+alias AccJs='MBJs && code .'
+
+alias ManEng='BMEng && code .'
+alias ManJs='BMJs && code .'
+
+alias QulEng='QCEng && code .'
+alias QulJs='QCJs && code .'
+
+alias Server='Ser && code .'
+
+alias workTerm='o Hyper ~/GitHub/work/hbm/qualification-codes-js && o Hyper ~/GitHub/work/hbm/qualification_codes_engine'
+alias workCode='cd ~/GitHub/work/hbm && code benefits-management-js && code benefits_management_engine && code qualification-codes-js && code qualification_codes_engine'
+alias workComms='Outlook && Teams'
+alias 9292='fire http://localhost:9292/?tenant_key=2c400054-42d8-4e74-87b7-80b5bd5fde9f'
+alias 8080='fire http://localhost:8080'
+alias workLocal='9292 && 8080'
+
+alias nvmVersion='echo "lts/dubnium" > .nvmrc'
+alias updateNVM='ManJs && nvmVersion && ManEng && nvmVersion && cd client && nvmVersion && MasJs && nvmVersion && MasEng && nvmVersion && cd client && nvmVersion && AccJs && nvmVersion && AccEng && nvmVersion && cd client && nvmVersion && Server && nvmVersion && cd client && nvmVersion && QualJs && nvmVersion && QualEng && cd client && nvmVersion && echo "Updated all .nvmrc."'
+
+alias rvmVersion='echo "2.6.2" > .ruby-version'
+alias updateRVM='ManEng && rvmVersion && MasEng && rvmVersion && QualEng && rvmVersion && AccEng && rvmVersion && Server && rvmVersion && echo "Updated all .ruby-version."'
+
+alias buildEng='bundle install && npm i && npm run build:development'
+
+alias buildMan='ManJs && i && ManEng && buildEng'
+alias buildMas='MasJs && i && MasEng && buildEng'
+alias buildQul='QulJs && i && QulEng && buildEng'
+alias buildAcc='AccJs && i && AccEng && buildEng'
+alias buildSer='Server && buildEng'
+
+alias cleanJs='rm -rf node_modules package-lock.json'
+alias cleanEng='cleanJs && rm -rf Gemfile.lock client/package-lock.json client/node_modules'
+
+alias cleanMan='ManJs && cleanJs && ManEng && cleanEng'
+alias cleanMas='MasJs && cleanJs && MasEng && cleanEng'
+alias cleanAcc='AccJs && cleanJs && AccEng && cleanEng'
+alias cleanQul='QulJs && cleanJs && QulEng && cleanEng'
+alias cleanSer='Server && cleanEng'
+
+alias testJs='npm t'
+alias testEng='npm run build:test:capybara'
+
+alias testMan='ManJs && testJs && ManEng && testEng'
+alias testMas='MasJs && testJs && MasEng && testEng'
+alias testQul='QulJs && testJs && QulEng && testEng'
+alias testAcc='AccJs && testJs && AccEng && testEng'
+alias testSer='Server && testEng'
+
+alias jestT='npm run test:jest'
+alias jestTU='npm run test:jest -- -u'
+alias jestTW='npm run test:jest -- --watch'
+
+alias wdioT='npm run test:wdio'
+
+managementJs='git@github.cerner.com:rwcm-norbert/benefits-management-js.git'
+managementEng='git@github.cerner.com:rwcm-norbert/benefits_management_engine.git'
+
+masterJs='git@github.cerner.com:rwcm-norbert/health-benefits-management-js.git'
+masterEng='git@github.cerner.com:rwcm-norbert/health_benefits_management_engine.git'
+
+qualJs='git@github.cerner.com:rwcm-norbert/qualification-codes-js.git'
+qualEng='git@github.cerner.com:rwcm-norbert/qualification_codes_engine.git'
+
+accountsJs='git@github.cerner.com:rwcm-norbert/health-benefits-store-js.git'
+accountsEng='git@github.cerner.com:rwcm-norbert/health_benefits_store_engine.git'
+
+hbmServer='git@github.cerner.com:rwcm-norbert/health_benefits_management_server.git'
+
+alias noah='cd ~/GitHub/work && rm -rf hbm'
+alias forgiven='cd ~/GitHub/work/ && take hbm && git clone $managementJs && git clone $managementEng && git clone $qualJs && git clone $qualEng && git clone $masterJs && git clone $masterEng && git clone $accountsJs && git clone $accountsEng && git clone $hbmServer'
+
 # *** Websites *** #
 alias Cru='fire https://crucible04.cerner.com/viewer/cru?filter=inbox'
+alias GitHub='fire https://github.com/JSavage42' # Change to your username
+alias TheSavage='fire https://thesavage.dev' # Remove probably
 alias Cerner='fire https://my.cerner.com/home/'
+alias myTime='fire https://mytime.cerner.com'
 alias Jira='fire https://jira2.cerner.com/secure/Dashboard.jspa'
 
-# *** Functions *** #
-# This one is my favorite
-gitIt() {
-  git checkout REVCYCLECM-"$1"
-}
+# *** Projects --- Remove probably *** #
+alias sick='cd ~/GitHub/personal/Advanced-React/sick-fits/frontend && code . && cd ~/GitHub/ &&personal/Advanced-React/sick-fits/backend && code .'
+alias trendy='cd ~/GitHub/personal/trendysavages && code .'
+alias kuisc='cd ~/GitHub/kuisc && code .'
 
-# This is a close second
-weather() {
-  curl wttr.in/"$1";
-}
+# *** Fun *** #
+alias lenny='echo ¯\\_(ツ)_/¯ | pbcopy'

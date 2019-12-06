@@ -1,4 +1,239 @@
-# Create new dir and cd
-function mkd() {
-  mkdir -p "$@" && cd "$_";
+function cleanTheThings() {
+  case $ in
+    5) echo "Running..."
+    ;;
+    *)
+      echo "Please enter 5 arguments" && \
+      trap 'zsh' EXIT
+    ;;
+  esac
+
+  case $1 in
+    1)
+      echo "Cleaning Health Benefits Master..."
+      cleanMas
+      echo "Health Benefits Master has been Cleaned!"
+      ;;
+    0)
+      echo "Skipping Master..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $2 in
+    1)
+      echo "Cleaning Member Benefits Accounts"
+      cleanAcc
+      echo "Member Benefits Accounts has been Cleaned"
+      ;;
+    0)
+      echo "Skipping Member Benefits Accounts.."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1  which will run for Master and Server"
+      ;;
+  esac
+  case $3 in
+    1)
+      echo "Cleaning Qualification Codes"
+      cleanQul
+      echo "Qualification Codes has been Cleaned"
+      ;;
+    0)
+      echo "Skipping Qualification Codes..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $4 in
+    1)
+      echo "Cleaning Health Benefits Management"
+      cleanMan
+      echo "Health Benefits Management has been Cleaned"
+      ;;
+    0)
+      echo "Skipping Management..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $5 in
+    1)
+      echo "Cleaning Health Benefits Server"
+      cleanSer
+      echo "Health Benefits Server has been Cleaned"
+      ;;
+    0)
+      echo "Skipping Server..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+}
+
+function buildTheThings() {
+  case $ in
+    3) echo "Running..."
+    ;;
+    *)
+      echo "Please enter 5 arguments" && \
+      trap 'zsh' EXIT
+    ;;
+  esac
+
+  case $1 in
+    1)
+      echo "Building Health Benefits Master"
+      buildMas
+      echo "Health Benefits Master has been installed and built"
+      ;;
+    0)
+      echo "Skipping Master..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $2 in
+    1)
+      echo "Building Member Benefits Accounts"
+      buildAcc
+      echo "Member Benefits Accounts has been Built"
+      ;;
+    0)
+      echo "Skipping Member Benefits Accounts.."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: buildTheThings 1 0 0 0 1  which will run for Master and Server"
+      ;;
+  esac
+  case $3 in
+    1)
+      echo "Building Qualification Codes"
+      buildQul
+      echo "Qualification Codes has been Built"
+      ;;
+    0)
+      echo "Skipping Qualification Codes..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: buildTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $4 in
+    1)
+      echo "Building Health Benefits Management"
+      buildMan
+      echo "Health Benefits Management has been installed and built"
+      ;;
+    0)
+      echo "Skipping Management..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+  case $5 in
+    1)
+      echo "Building Health Benefits Server"
+      buildSer
+      echo "Health Benefits Server has been Built"
+      ;;
+    0)
+      echo "Skipping Server..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: buildTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+}
+
+function testTheThings() {
+  case $ in
+    2) echo "Running..."
+    ;;
+    *)
+      echo "Please enter 5 arguments" && \
+      trap 'zsh' EXIT
+    ;;
+  esac
+
+  case $1 in
+    1)
+      echo "Testing Health Benefits Master"
+      testMas
+      echo "Health Benefits Management has been tested"
+      ;;
+    0)
+      echo "Skipping Master..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: cleanTheThings 1 0 0 0 0 which will run for Master"
+      ;;
+  esac
+  case $2 in
+    1)
+      echo "Testing Member Benefits Accounts"
+      testAcc
+      echo "Member Benefits Accounts has been tested"
+      ;;
+    0)
+      echo "Skipping Member Benefits Accounts.."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: testTheThings 1 0 0 0 1  which will run for Master and Server"
+      ;;
+  esac
+  case $3 in
+    1)
+      echo "Testing Qualification Codes"
+      testQul
+      echo "Qualification Codes has been tested"
+      ;;
+    0)
+      echo "Skipping Qualification Codes..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: testTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+    case $4 in
+    1)
+      echo "Testing Health Benefits Management"
+      testMan
+      echo "Health Benefits Management has been tested"
+      ;;
+    0)
+      echo "Skipping Management..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: testTheThings 1 0 0 0 0 which will run for Master"
+      ;;
+  esac
+  case $5 in
+    1)
+      echo "Testing Health Benefits Server"
+      testSer
+      echo "Health Benefits Server has been tested"
+      ;;
+    0)
+      echo "Skipping Server..."
+      ;;
+    *)
+      echo "Please enter 1 or 0. Example: testTheThings 1 0 0 0 1 which will run for Master and Server"
+      ;;
+  esac
+}
+
+# This one is my favorite
+gitit() {
+  git checkout REVCYCLECM-"$1"
+}
+# This is a close second
+weather() {
+  curl wttr.in/"$1";
 }

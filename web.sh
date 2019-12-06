@@ -11,11 +11,14 @@ echo "Cleaning up after ourselves..."
 brew cleanup
 
 echo "Installing npm global packages, (see script for details)..."
-npm i -g npx
+npm i -g npx eslint yarn fkill firebase-tools hint jsdoc
 
 echo "Installing ruby..."
-curl -sSL https://get.rvm.io | bash -s stable --ruby
-rvm use 2.4.1@global && gem install bundler
+brew install rbenv
+rbenv init
+update
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+rbenv install 2.6.2
 
 echo "Installing nvm"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
