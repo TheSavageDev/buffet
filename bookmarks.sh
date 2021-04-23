@@ -6,9 +6,6 @@
 
 # Copy Recommended bookmarks to browsers
 
-# Brave
-cp ./utils/htmlBookmarks.json ~/Library/Application\ Support/BraveSoftware/Brave-Browser/Default/Bookmarks
-
 # Chrome/Canary
 cp ./utils/htmlBookmarks.json ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
 cp ./utils/htmlBookmarks.json ~/Library/Application\ Support/Google/Chrome\ Canary/Default/Bookmarks

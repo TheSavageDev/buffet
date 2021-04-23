@@ -38,7 +38,7 @@ echo "\nHost github.cerner.com \n\
   User git \n\
   AddKeysToAgent yes\n\
   UseKeychain yes\n\
-  IdentityFile ~/.ssh/$rsa_name" >> ~/.ssh/test.txt
+  IdentityFile ~/.ssh/$rsa_name" >> ~/.ssh/config
 
 echo $rsa_name
 
@@ -58,18 +58,6 @@ read -p "Press enter to continue..."
 ssh -T git@github.cerner.com
 
 # Clone Repos
-cd ~ && mkdir hbm && cd hbm
-# Health Benefits Management Server
-git clone git@github.cerner.com:rwcm-norbert/health_benefits_management_server.git
-
-# Health Benefits Management Engine
-git clone git@github.cerner.com:rwcm-norbert/benefits_management_engine.git
-
-# Health Benefits Management JS
-git clone git@github.cerner.com:rwcm-norbert/benefits-management-js.git
-
-# Health Benefits Master Engine
-git clone git@github.cerner.com:rwcm-norbert/health_benefits_management_engine.git
-
-# Health Benefits Master JS
-git clone git@github.cerner.com:rwcm-norbert/health-benefits-management-js.git
+cd ~ && mkdir dev && cd dev && mkdir ccm && cd ccm
+# Portal
+git clone git@github.cerner.rom:rwcm/rwcm-portal.git

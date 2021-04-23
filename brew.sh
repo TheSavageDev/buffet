@@ -20,7 +20,7 @@ brew install git
 # Core casks
 
 # Development casks
-brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" visual-studio-code-insiders
 
 # Miscellanious casks
 brew cask install --appdir="/Applications" google-chrome
